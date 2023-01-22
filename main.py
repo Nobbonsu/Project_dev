@@ -1,3 +1,4 @@
+# linear search
 def linear_search(list, target):
 
     for i in range(0, len(list)):
@@ -18,3 +19,8 @@ target = 7
 
 findNum = linear_search(num1, target=target)
 verify(findNum)
+
+
+# binary search
+def binary_search():
+    pass
