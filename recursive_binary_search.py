@@ -21,8 +21,8 @@ def verify(result):
     print("Target found: ", result)
 
 
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-target = 8
+numbers = ["John", "James", "Frimps", "Mosh", "Mary", "Ernest", "Alex"]
+target = "John"
 
 results = recursive_binary_search(numbers, target)
 verify(result=results)
